@@ -1,0 +1,46 @@
+#!mainFile "main.opy"
+
+globalvar Gen_CheckpointData
+globalvar Gen_EffectLock
+globalvar Gen_EffectPosition
+globalvar Gen_EffectState
+globalvar Gen_EffectTime
+globalvar Gen_EffectType
+globalvar Gen_EffectRadius
+globalvar Gen_EffectRadiusD  # what could D possibly mean
+globalvar Gen_EffectAbility
+globalvar CheckpointDataRecorder
+globalvar LevelCounter
+globalvar LevelCheckpointCounter
+globalvar Iterator1
+globalvar EffectIterator
+globalvar TimeRemaining
+globalvar InfoText
+
+
+# User Map Data
+globalvar Md_CheckpointPosition
+globalvar Md_Radius_TeleRad_Empty
+globalvar Md_Next_Prev_Empty
+globalvar Md_CheckpointPrime
+globalvar Md_TeleportPosition
+globalvar Md_Effects
+globalvar Md_AbilityCount
+
+
+playervar CheckpointData
+playervar LockEffect
+playervar EffectPosition
+playervar EffectVisible
+playervar Checkpoint
+playervar Roaming
+playervar RunState
+playervar RunTime
+playervar Shift
+playervar CheckpointCounter
+playervar CheckpointTime
+playervar Level
+playervar AbilityCount
+playervar Elements
+playervar DelGenElements
+playervar AbilityDetect

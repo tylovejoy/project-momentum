@@ -1,0 +1,48 @@
+actions
+{
+	Global.Md_CheckpointPosition = Array(Vector(70.727, 15.063, -63.056), Vector(58.215, 20.955, -68.095), Vector(7.683, 10.007, -40.498), Vector(
+		-1.190, 6, -50.605), Vector(-4.785, 5.998, -66.678), Vector(9.116, 6, -81.765), Vector(62.562, 17.307, -85.383), Vector(58.888,
+		18.771, -99.698), Vector(8.135, 5.835, -63.936), Vector(-6.141, 7.086, -59.306), Vector(22.054, 11.007, -72.546), Vector(
+		-10.466, 0.257, -20.222), Vector(44.832, 9.688, -102.095), Vector(60.813, 11.197, -90.366));
+
+    Global.Md_Radius_TeleRad_Empty = Array(
+        Vector(2, 0, 0),
+        Vector(2.720, 0, 0),
+        Vector(2.720, 0, 0),
+        Vector(2.160, 0, 0),
+        Vector(2.672, 0, 0),
+        Vector(4.176, 0, 0),
+        Vector(2, 0, 0),
+        Vector(2.880, 0, 0),
+        Vector(2.352, 0, 0),
+        Vector(2.352, 0, 0),
+        Vector(6, 0, 0),
+        Vector(2.992, 0, 0),
+        Vector(3.424, 0, 0),
+        Vector(3.280, 0, 0)
+    );
+    Global.Md_Next_Prev_Empty = Array(
+        Vector(0, -1, 0),
+        Vector(2, 0, 0),
+        Vector(3, 1, 0),
+        Vector(4, 2, 0),
+        Vector(5, 3, 0),
+        Vector(6, 4, 0),
+        Vector(7, 5, 0),
+        Vector(8, 6, 0),
+        Vector(9, 7, 0),
+        Vector(10, 8, 0),
+        Vector(11, 9, 0),
+        Vector(12, 10, 0),
+        Vector(13, 11, 0),
+        Vector(0, 12, 0)
+
+    );
+
+	Global.Md_CheckpointPrime = Array(11, 13, True, True, True, True, True, True, True, True, True, True, True, True);
+	Global.Md_AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False);
+
+	Global.Md_TeleportPosition = Array(False, 0, False, False, False, Vector(65.207, 12.762, -75.144), False, False, False, False, False, Vector(70.502,
+		10.047, -109.270), False, False);
+	Global.Md_Effects = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False);
+}

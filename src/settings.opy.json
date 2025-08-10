@@ -1,0 +1,67 @@
+{
+    "main": {
+        "description": "Play template framework OW2 Doomfist Parkour",
+        "modeName": "Project Momentum - Doomfist Parkour Framework"
+    },
+    "lobby": {
+        "allowPlayersInQueue": true,
+        "mapRotation": "paused",
+        "enableMatchVoiceChat": true,
+        "spectatorSlots": 12,
+        "team1Slots": 11,
+        "team2Slots": 0,
+        "returnToLobby": "never",
+        "swapTeamsAfterMatch": false
+    },
+    "gamemodes": {
+        "assault": {
+            "enabledMaps": []
+        },
+        "controlCommunity": {
+            "enabledMaps": []
+        },
+        "escortCommunity": {
+            "enabledMaps": []
+        },
+        "hybridCommunity": {
+            "enabledMaps": []
+        },
+        "skirmish": {
+            "enabledMaps": [
+                "eichenwalde"
+            ]
+        },
+        "tdm": {
+            "enabledMaps": []
+        },
+        "general": {
+            "enableHeroSwitching": false,
+            "enableEnemyHealthBars": false,
+            "gamemodeStartTrigger": "immediately",
+            "heroLimit": "off",
+            "enableKillCam": false,
+            "enableKillFeed": false,
+            "enableRandomHeroes": true,
+            "respawnTime%": 0,
+            "spawnHealthPacks": "disabled"
+        }
+    },
+    "heroes": {
+        "allTeams": {
+            "doomfist": {
+                "ability1ChargeRate%": 500,
+                "ability1Cooldown%": 84
+            },
+            "enabledHeroes": [
+                "doomfist"
+            ],
+            "general": {
+                "combatUltGen%": 0,
+                "passiveUltGen%": 0
+            }
+        }
+    }
+    # "workshop": {
+    #     "Full 12 player Leaderboard": true
+    # }
+}
