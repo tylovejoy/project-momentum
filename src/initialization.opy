@@ -181,7 +181,6 @@ rule "GLOBAL HUD - LEVEL NAMES & COLORS & INITIATE MAP":
 
 rule "Player Joins, Current CP Color   ---------------------------------------------   CUSTOMIZE":
     @Event playerJoined
-    wait(10)
     eventPlayer.disableMessages()
     eventPlayer.Roaming = true
     eventPlayer.RunState = 3
@@ -201,9 +200,9 @@ rule "Player Joins, Current CP Color   -----------------------------------------
     smallMessage(getAllPlayers(), "AHJnfskZdjf")
     createEffect(eventPlayer, Effect.RING, Color.WHITE, eventPlayer.CheckpointData[CheckpointDataIndex.CurrentOrTeleportPosition], eventPlayer.CheckpointData[CheckpointDataIndex.CurrentOrTeleportRadius], EffectReeval.POSITION_AND_RADIUS)
     eventPlayer.setStatusEffect(null, Status.INVINCIBLE, 99999)
-    if eventPlayer.CheckpointData[CheckpointDataIndex.NextCheckpointPosition]:
+    #if Md_CheckpointPosition:
         #RegularHUD()
-        Reset()
+    Reset()
     wait(4)
     eventPlayer.enableMessages()
 
