@@ -197,7 +197,6 @@ rule "Player Joins, Current CP Color   -----------------------------------------
     eventPlayer.disableGamemodeHud()
     eventPlayer.disableGamemodeInWorldUi()
     #Current CP Color   ---   CUSTOMIZE
-    smallMessage(getAllPlayers(), "AHJnfskZdjf")
     createEffect(eventPlayer, Effect.RING, Color.WHITE, eventPlayer.CheckpointData[CheckpointDataIndex.CurrentOrTeleportPosition], eventPlayer.CheckpointData[CheckpointDataIndex.CurrentOrTeleportRadius], EffectReeval.POSITION_AND_RADIUS)
     eventPlayer.setStatusEffect(null, Status.INVINCIBLE, 99999)
     #if Md_CheckpointPosition:
